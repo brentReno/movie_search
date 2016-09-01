@@ -1,8 +1,12 @@
+body{
+  background-color: #2299ff;
+}
 h1{
 font-family: Helvetica,sans-serif;
 font-size: 48px;
 text-align: center;
 letter-spacing: -2px;
+background-color: #ffffee;
 }
 input{
   font-family: Helvetica,sans-serif;
@@ -10,16 +14,41 @@ input{
   margin-left: auto;
   margin-right: auto;
   display:block;
+  background-color: #ffffff;
+  font-size: 16px;
 }
 button{
   font-family: Helvetica,sans-serif;
+  font-weight: bolder;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 5px;
   display:block;
+  background-color: #ffffff;
+  border-radius: 6px;
+  width: 120px;
+  font-size: 12px;
+    border: 2px solid darkgrey;
+
 }
 div{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  background-color: #ffffee;
+  width:400px;
+
+}
+p{
+  font-family: Helvetica,sans-serif;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 24px;
+  border-top: 10px solid #2299ff;
+  text-decoration: underline;
+}
+img{
+  box-shadow: 5px 5px 3px darkgrey;
 }
